@@ -12,9 +12,9 @@ const style = {
 }
 
 const Banner = props => (
-  <article style={style.bgDark} className="mw7 center ph3 ph5-ns tc br2 pv3 bg-black-90 mb5 animated fadeIn">
-    <img style={style.logoIcon} className='logoIcon' src="./img/pacman.gif" alt="pacman"/>
-    <h2 className="fw2 f4 lh-copy mt0 mb3 white animated fadeIn slower">
+  <article style={style.bgDark} className="sd">
+    <img style={style.logoIcon} className='logoIcon' src="./gif/destiny dance.gif" alt="destiny"/>
+    <h2 className="ds">
     Click on an image to earn points, but don't click on any more than once!
     </h2>
   </article>
