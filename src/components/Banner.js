@@ -6,7 +6,8 @@ const style = {
     heigth: 100
   },
   bgDark: {
-    backgroundColor: `rgb(1,0,1)`
+    backgroundColor: `rgb(1,0,1)`,
+    TextColor: "rgb(255, 255, 255)"
   }
 }
 

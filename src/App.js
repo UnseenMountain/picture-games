@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {Component} from 'react';
 // import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import NavBar from './components/NavBar';
 import Banner from './components/Banner';
 import IconCard from './components/IconCard';
-import Icons from './icons.json';
+import Icons from './characters.json';
 //
 import "./components/IconCard.css";
 //
@@ -27,6 +27,7 @@ const shuffleArray = (array) => {
   }
   return array;
 };
+
 class App extends Component {
 
   state = {
