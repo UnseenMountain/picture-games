@@ -2,10 +2,10 @@ import React from 'react';
 
 const style = {
   logoIcon: {
-    width: 150,
-    heigth: 100
+    width: 200,
+    heigth: 200
   },
-  bgDark: {
+  bgLight: {
     backgroundColor: `rgb(1,0,1)`,
     TextColor: "rgb(255, 255, 255)"
   }
